@@ -1,0 +1,23 @@
+/*Header logo*/
+
+.headerSpan__logo {
+    color: var(--hover-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+.header__logo {
+    width: 145px;
+    color: var(--logo-color);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: .03em;
+}
+
+
+

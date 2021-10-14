@@ -1,0 +1,11 @@
+.contact__icon {
+    margin-right: 10px;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);;
+    transition-duration: .25s;
+    transition-property:  fill;
+
+&:hover,
+&:focus {
+    fill: var(--hover-color);
+}
+}

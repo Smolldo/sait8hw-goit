@@ -1,0 +1,88 @@
+/*SKILLS block*/
+.skill__section {
+
+    @media screen and (min-width:320px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    @media screen and (min-width:768px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    @media screen and (min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+.skill__paragraph {
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: .03em;
+
+    color: var(--alter-text);
+}
+}
+
+//photo block
+.skillPhotos__section {
+    @media screen and (min-width:110px){
+       display: none;
+    }
+    @media screen and (min-width:768px){
+        display: none;
+     }
+     @media screen and (min-width:1200px){
+         display: block; 
+        padding-bottom: 94px;
+     }
+    
+}
+
+/*Skill photo-section*/
+
+.skillPhotos__list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.skill__photo {
+    width: 370px;
+}
+
+.skillPhotos__block{
+    position: relative;
+}
+
+.skillPhotos__overlay{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 370px;
+    height: 70px;
+    background-color: var(--anima-bg-color);
+}
+
+.skillPhotos__title{
+
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+
+    color: var(--body-white);
+}
+
+
+
+.skillPhotos__item+.skillPhotos__item {
+    margin-left: 30px;
+}

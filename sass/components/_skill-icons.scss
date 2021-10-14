@@ -1,0 +1,19 @@
+.skillSvg__block {
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--team-bg);
+    margin-bottom: 30px;
+
+    border-radius: 4px;
+
+.skill__icon {
+    width: 70px;
+    height: 70px;
+
+    fill: var(--text-color);
+}
+}

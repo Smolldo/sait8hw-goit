@@ -1,0 +1,149 @@
+//Titles Block
+
+
+//Hero block title... main title h1
+.inner__screen-title {
+
+    margin: 0 auto 30px;
+    padding: 0;
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    letter-spacing: .06em;
+
+    color: var(--bg-color);
+
+    @media screen and (min-width:320px){
+    
+     }
+     @media screen and (min-width:768px){
+        width: 360px;
+        
+        font-size: 26px;
+        line-height: 42px;
+      }
+      @media screen and (min-width:1200px){
+        width: 696px;
+        
+        font-size: 44px;
+        line-height: 60px;
+      }
+}
+
+//skill properties title
+
+.skill__title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+
+    font-size: 14px;
+    line-height: 16px;
+
+    font-weight: 500;
+    letter-spacing: .03em;
+
+    text-transform: uppercase;
+
+    color: var(--text-color);
+}
+
+//almost all section title
+
+.section__title {
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+
+    letter-spacing: .03em;
+
+    color: var(--text-color);
+
+    margin-bottom: 50px;
+}
+
+//worker block Worker names 
+
+.team__title {
+    font-size: 16px;
+    font-weight: 500;
+
+    line-height: 19px;
+    letter-spacing: .01em;
+
+    text-align: center;
+
+    color: var(--text-color);
+
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+//backdrop form title
+
+.form__title{
+    margin-bottom: 12px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: .01em;
+    font-weight: bold;
+    color: var(--text-color);
+    
+}
+
+//footer social block title
+
+.footerSocial__title {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    letter-spacing: .03em;
+
+    text-transform: uppercase;
+    color: var(--body-white);
+
+    @media screen and (min-width:320px) {
+        text-align: center;
+}
+
+    @media screen and (min-width:768px) {
+        text-align: center; 
+}
+
+    @media screen and (min-width:1200px) {
+        text-align: left;
+}
+}
+
+//spam titile input
+
+.spam__title{
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    letter-spacing: .03em;
+
+    text-transform: uppercase;
+    color: var(--body-white);
+
+    @media screen and (min-width:320px) {
+        text-align: center;
+}
+
+    @media screen and (min-width:768px) {
+        text-align: center; 
+}
+
+    @media screen and (min-width:1200px) {
+        text-align: left;
+}
+}

@@ -1,0 +1,42 @@
+//portfolio btns list
+
+.filterButton__list {
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    margin-bottom: 50px;
+
+    @media screen and (min-width:768px) {
+     align-items: center;
+    justify-content: center;
+}
+
+}
+
+.filterButton__item{
+    margin-right: 8px;
+    &:last-child{
+        margin-right: 0;
+    }
+   @media screen and (min-width:320px) {
+       margin-bottom: 15px;
+       &:last-child{
+           margin-bottom: 0;
+       }
+         
+   } 
+   @media screen and (min-width:479px) {  
+    
+    &:nth-child(n+4){
+        margin-bottom: 0;
+    }  
+    @media screen and(min-width:768px) {
+       margin-bottom: 0;  
+    
+    }
+} 
+
+}

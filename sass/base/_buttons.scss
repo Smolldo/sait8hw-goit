@@ -1,0 +1,213 @@
+/*MAIN PAGE BUTTONS*/
+
+/*Modal block buttons*/
+.openModal__button {
+
+    width: 200px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+
+    padding: 10px 32px;
+
+    color: var(--bg-color);
+    background-color: var(--hover-color);
+
+    border-radius: 5px;
+    border-color: transparent;
+
+    transition: cubic-bezier(0.4, 0, 0.2, 1);;
+    transition-duration: .25s;
+    transition-property: box-shadow;
+
+
+&:hover {
+
+    cursor: pointer;
+    box-shadow: 0 4px 4px var(--logo-color);
+}
+&:hover {
+
+    cursor: pointer;
+    box-shadow: 0 4px 4px var(--logo-color);
+}
+}
+
+.closeModal__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    margin: 0;
+    padding: 0;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    border:1px solid var(--card-shadow);
+    background-color: var(--body-white);
+
+    transition: cubic-bezier(0.4, 0, 0.2, 1);;
+    transition-duration: .25s;
+    transition-property: fill;
+
+.closeModal__icon{
+    width: 18px;
+    height: 18px;
+}
+
+&:hover,&:focus{
+    cursor: pointer;
+    fill: var(--hover-color);
+}
+}
+
+.sendModal__button{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .06em;
+    font-weight: bold;
+    color: var(--body-white);
+    background-color: var(--overlay-bg-color);
+    box-shadow: 0 4px 4px var(--card-shadow);
+    border: none;
+    border-radius: 4px;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    display: flex;
+    justify-content: center;
+
+
+&:hover{
+    cursor: pointer;
+}
+}
+
+/*Footer button*/
+.spamSubmit__button{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .06em;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    color: var(--body-white);
+    background-color: var(--hover-color);
+    box-shadow: 0 4px 4px var(--card-shadow);
+
+    @media screen and (min-width:320px) {
+        margin: 20px auto ;
+    }
+    @media screen and (min-width:1200px) {
+        margin: 0;
+        margin-left: 12px;
+    }
+
+.spam__icon{
+    margin-left: 4px;
+}
+
+&:hover{
+    cursor: pointer;
+}
+}
+
+/*PORTFOLIO_PAGE BUTTONS*/
+/*filterButton*/
+.filterButton {
+    font-weight: 500;
+
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: .03em;
+
+    background-color: var(--team-bg);
+    color: var(--text-color);
+
+    padding: 6px 22px;
+    white-space: nowrap;
+
+    border: none;
+    border-radius: 4px;
+    border-color: transparent;
+    text-align: center;
+
+
+    transition: cubic-bezier(0.4, 0, 0.2, 1);;
+    transition-duration: .25s;
+    transition-property:  background-color, color, box-shadow;
+
+
+&:hover{
+    color: var(--bg-color);
+    cursor: pointer;
+    background-color: var(--hover-color);
+    box-shadow: 1px 3px 3px var(--text-color);
+}
+&:focus{
+    color: var(--bg-color);
+    cursor: pointer;
+    background-color: var(--hover-color);
+    box-shadow: 1px 3px 3px var(--text-color);
+}
+}
+
+/*Menu btn*/
+.openMenu__button{
+    display: block;
+    position: absolute;
+    z-index: 45;
+    top: 23px;
+    right: 30px;
+    border: none;
+background-color: var(--body-white);
+transition: cubic-bezier(0.4, 0, 0.2, 1);;
+transition-duration: .25s;
+transition-property:  fill;
+
+    &:hover, &:focus {
+        fill: var(--hover-color);
+    }
+
+    @media screen and (min-width:768px) {
+        display: none;
+}
+
+}
+
+.openMenu__button .closeMenu{
+    display: none;
+}
+
+.openMenu__button .closeMenu {
+    display: none;
+}
+
+.openMenu__button.is-open .closeMenu{
+    display: block;
+}
+
+.openMenu__button.is-open .openMenu{
+    display: none;
+}

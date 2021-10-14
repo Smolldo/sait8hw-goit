@@ -1,0 +1,48 @@
+/*TEAMBLOCK*/
+.socialIcon__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+.socialIcon__item+.socialIcon__item {
+    margin-left: 10px;
+}
+
+.socialIcon__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+
+    transition: cubic-bezier(0.4, 0, 0.2, 1);;
+    transition-duration: .25s;
+    transition-property:  background-color;
+
+
+&:hover,
+&:focus {
+    background-color: var(--hover-color);
+}
+}
+}
+
+/*FOOTER bLOCK*/
+
+.socialIcon__link {
+    border-radius: 50%;
+
+    background-color: var(--soc-bg);
+
+    transition: cubic-bezier(0.4, 0, 0.2, 1);;
+    transition-duration: .25s;
+    transition-property:  background-color;
+}
+

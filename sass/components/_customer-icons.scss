@@ -1,0 +1,12 @@
+.customer__icon {
+    fill: var(--svg-color);
+
+    transition: cubic-bezier(0.4, 0, 0.2, 1);;
+    transition-duration: .25s;
+    transition-property:  fill;
+
+.customer__link:hover &,
+.customer__link:focus &{
+    fill: var(--hover-color);
+}
+}
